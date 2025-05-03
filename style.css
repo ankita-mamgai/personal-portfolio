@@ -1,0 +1,162 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  transition: background 0.3s, color 0.3s;
+  scroll-behavior: smooth;
+}
+
+body.light {
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+header {
+  background: #161b22;
+  padding: 1rem 0;
+}
+
+header .logo {
+  font-size: 1.8rem;
+  color: #fca311;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #c9d1d9;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fca311;
+}
+
+#hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hero h2 span {
+  color: #fca311;
+}
+
+.typing {
+  color: #58a6ff;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  margin: 1rem 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #fca311;
+  color: #0d1117;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background: #ffb347;
+  transform: scale(1.05);
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.skills-list li {
+  background: #21262d;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.project-card {
+  background: #21262d;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background: #161b22;
+  color: #c9d1d9;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+
+.github-stats {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 28px;
+  color: #fca311;
+  margin: 0 12px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-list {
+    justify-content: center;
+  }
+} 

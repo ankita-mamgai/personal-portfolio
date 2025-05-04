@@ -1,4 +1,4 @@
-import { inject } from "@vercel/analytics"
+
     AOS.init();
 
     new Typed(".typing", {

@@ -24,7 +24,8 @@ This is a personal portfolio website built with HTML, CSS, and JavaScript to sho
 
 - ✅ Fully responsive (mobile-first design)
 - ✅ Smooth scroll and animations using AOS
-- ✅ SEO optimized with meta tags and alt attributes- ✅ Downloadable resume
+- ✅ SEO optimized with meta tags and alt attributes
+- ✅ Downloadable resume
 - ✅ Contact section with email and phone
 - ✅ Integrated social links (GitHub & LinkedIn)
 - ✅ Profile image centered and responsive

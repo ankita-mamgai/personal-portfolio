@@ -6,7 +6,7 @@ This is a personal portfolio website built with HTML, CSS, and JavaScript to sho
 
 ## 📸 Live Preview
 
-[🔗 View Live Site](https://your-live-link.com)
+[🔗 View Live Site ] https://ankitamamgai-portfolio.netlify.app/
 
 ---
 
